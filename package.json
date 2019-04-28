@@ -1,0 +1,17 @@
+{
+  "name": "hapi-jest",
+  "version": "1.0.0",
+  "description": "Testing Hapi.js With Jest",
+  "main": "server.js",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node server.js"
+  },
+  "author": "http://niralar.com/",
+  "license": "ISC"
+}
