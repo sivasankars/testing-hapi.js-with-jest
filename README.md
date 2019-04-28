@@ -1,0 +1,1 @@
+# testing-hapi.js-with-jest
