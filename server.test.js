@@ -1,12 +1,14 @@
 const expect = require('expect');
-const server = require('./server.js');
+const server = require('./server.js'); // Import Server/Application
 
+// Start application before running the test case
 beforeAll((done) => {
     server.events.on('start', () => {
         done();
     });
 });
 
+// Stop application after running the test case
 afterAll((done) => {
     server.events.on('stop', () => {
         done();

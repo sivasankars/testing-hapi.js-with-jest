@@ -5,6 +5,7 @@ const users = [
     { id: 3, name: 'Niralar' }
 ]
 
+// Create server listening on port 3000
 const server = Hapi.server({
     port: 3000,
     host: 'localhost'
@@ -54,6 +55,7 @@ server.route({
     }
 });
 
+// Initiate the server
 const init = async () => {
     await server.start();
     console.log('Server running on %ss', server.info.uri);
