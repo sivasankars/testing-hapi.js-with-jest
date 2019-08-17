@@ -3,15 +3,24 @@
   "version": "1.0.0",
   "description": "Testing Hapi.js With Jest",
   "main": "server.js",
-  "dependencies": {
-    "hapi": "^18.1.0",
-    "jest": "^24.7.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "jest --verbose",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivasankars/testing-hapi.js-with-jest.git"
+  },
   "author": "http://niralar.com/",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivasankars/testing-hapi.js-with-jest/issues"
+  },
+  "homepage": "http://niralar.com/testing-hapi-js-with-jest/",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }

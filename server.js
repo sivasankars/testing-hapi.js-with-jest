@@ -1,4 +1,4 @@
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const users = [
     { id: 1, name: 'Siva' },
     { id: 2, name: 'Sivasankar' },
