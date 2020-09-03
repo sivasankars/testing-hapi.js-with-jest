@@ -18,7 +18,7 @@
   },
   "homepage": "http://niralar.com/testing-hapi-js-with-jest/",
   "dependencies": {
-    "@hapi/hapi": "^18.3.2"
+    "@hapi/hapi": "^19.1.1"
   },
   "devDependencies": {
     "jest": "^24.9.0"
